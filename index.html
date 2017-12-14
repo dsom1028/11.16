@@ -5,6 +5,7 @@
 	<script src="scrollByAnimated.js"></script>
 	<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 	
 	<title>introduce tongbok</title>
 	<script src="scrollByAnimated.js"></script>
@@ -85,6 +86,24 @@
 		#sectionD{ background: black; transition: all 1s; }
 		#sectionE{ background: black; transition: all 1s; }
 
+/* Mobile */
+@media all
+  and (max-width: 600px){
+
+}
+
+/* Tablet */
+@media all and (min-width: 601px) and (max-width: 900px){
+	header{clear:both;width:calc(100% - 6em); margin:1em 3em;}
+	header h1{padding-bottom: 1em;padding-right: 3em;padding-top: 1em;}
+	nav{position:static;left:inherit;top:inherit;width:calc(100% - 6em);margin:3em 3em;}
+  nav a{float:left;width:25%;font-size: 0.8em;background: black;height:25px;z-index: 9999;color:#555;}
+  nav a:hover{background: black}
+	main{width:calc(100% - 6em); margin:1em 3em;}
+	article p{margin-right:0;}
+  article blockquote{width:calc(100%-2em);}
+	footer{width:calc(100% - 6em); margin:3em 3em;}
+}
 </script>	
 	
 		</stlye>
